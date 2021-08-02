@@ -1,3 +1,5 @@
+package part1;
+
 public class Pair {
     int x;
     int y;

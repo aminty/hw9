@@ -1,3 +1,5 @@
+package part1;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -5,8 +7,8 @@ import java.util.Scanner;
 public class MainApp {
     public static void main(String[] args) {
         List<Integer> inputList = new ArrayList<>();
-       // Scanner sc = new Scanner(System.in);
-//todo infinity loop
+        // Scanner sc = new Scanner(System.in);
+        //todo infinity loop
         while (true) {
             Scanner sc = new Scanner(System.in);
 
@@ -41,8 +43,5 @@ public class MainApp {
             inputList.add(pair.getY());
 
         }
-
     }
-
-
 }
